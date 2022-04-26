@@ -36,6 +36,18 @@
       ],
       "method": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse minima ex rem quis similique eum ratione quaerat, voluptas molestias ut repudiandae delectus voluptates. Eius esse at tenetur ab accusamus excepturi?",
       "cookingTime": "35 minutes"
+    },
+    {
+      "title": "Pizza",
+      "ingredients": [
+        "Pepperoni",
+        "Sausage",
+        "Mozzarella Cheese",
+        "Tomato Sauce"
+      ],
+      "method": "Make the dough, put on the ingredients, cook the pizza, enjoy!",
+      "cookingTime": "15 minutes",
+      "id": "3Cpdjmq"
     }
   ]
 }

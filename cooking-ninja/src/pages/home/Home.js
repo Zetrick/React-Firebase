@@ -1,7 +1,7 @@
 import RecipeList from '../../components/RecipeList';
 import { useFetch } from '../../hooks/useFetch';
 
-export default function Home() {
+export default function Home({searchTerm}) {
 
 const { data, isPending, error } = useFetch("http://localhost:3000/recipes");
 
@@ -9,7 +9,7 @@ const { data, isPending, error } = useFetch("http://localhost:3000/recipes");
     <div>
       {error && <p className='text-red-500 font-bold m-20'>{error}</p>}
       {isPending && <p className='text-violet-500 animate-pulse m-20'>Loading...</p>}
-      {data && <RecipeList recipes={data} />}
+      {data && <RecipeList recipes={data} searchTerm={searchTerm}/>}
     </div>
   )
 }
